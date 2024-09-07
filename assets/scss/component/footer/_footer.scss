@@ -1,0 +1,280 @@
+.hutar-full-pages{
+    padding: 100px 0px;
+  }
+  .hutar-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 30px;
+    border-radius: 8px;
+    background: #ffffff;
+    height: 157px;
+    input{
+      width: 523px;
+      height: 68px;
+      padding: 0 25px;
+      border: none;
+      background-color: #9b999998;
+      position: relative;
+    }
+    button{
+      position: absolute;
+      width: 193px;
+  height: 68px;
+  border-radius: 34px;
+  background: #488C1C;
+  right: 0;
+  top: 0;
+    }
+  }
+  .hutar-submeet{
+    position: relative;
+    .email-icon{
+      position: absolute;
+      top: 28%;
+      left: 6px;
+      
+  i{
+  font-size: 25px;
+  }
+    }
+    input{
+      max-width: 523px;
+      height: 68px;
+      padding: 0 50px;
+      border: none;
+      background-color: #9b999998;
+      
+    }
+    button{
+      position: absolute;
+      max-width: 193px;
+      height: 68px;
+      background: #488C1C;
+      right: 0;
+      top: 0;
+      
+      color: white;
+      border: none;
+  
+    }
+    i{
+      padding: 0 7px;
+      font-size: 20px;
+    }
+  }
+
+  
+  .pagina-tion{
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+   padding-bottom: 300px;
+   gap: 10px;
+   z-index: 2;
+  color: mediumseagreen;
+   
+  }
+  
+  .line-light{
+    hr{
+      height: 2px;
+      width: 400px;
+      background-color: red;
+    }
+  }
+  
+  
+  .hutar-menu-list{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 50px;
+align-items: center;
+    padding-top: 50px;
+    .about-company{
+      h3{
+        
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 175%;
+        text-transform: capitalize;
+      }
+      p{
+        padding-top: 35px;
+        color: #F4F4F4;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+    .company-donec{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-top:30px;
+    }
+    .company-number{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-top: 50px;
+    }
+  }
+  .useful-links{
+    h3{
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 175%;
+      text-transform: capitalize;
+    }
+    ul{
+      padding-top: 30px;
+      li{
+        a{
+         
+            color: #F4F4F4;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 202%; 
+            text-transform: capitalize;
+            line-height: 40px;
+        }
+      }
+    }
+  }
+  .customer-list{
+    h3{
+      color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  text-transform: capitalize;
+    }
+    ul{
+      padding-top: 30px;
+      li{
+        a{
+         
+          color: #F4F4F4;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 202%;
+          text-transform: capitalize;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  .roduct-egories{
+    h3{
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 175%; 
+      text-transform: capitalize;
+    }
+    ul{
+      padding-top: 30px;
+      li{
+        a{
+          
+          color: #F4F4F4;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 202%;
+          text-transform: capitalize;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  
+  .hutar-moda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 65px;
+  
+    .hutar-moda-text{
+     
+      a{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #FFF;
+        font-family: Jost;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        img{
+          width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        
+        }
+       
+      }
+    }
+    .hutr-moda-icon{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    a{
+     
+      i{
+        
+        font-size: 25px;
+        color: white;
+        z-index: -1;
+       
+      }
+    }
+  }
+   .hutr-moda-icon a:hover  i {
+    color: #488C1C;
+    
+   
+   }
+  
+   .fresh-view{
+    padding-top: 50px;
+    a{
+      color: #488C1C;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136.5%;
+  text-transform: capitalize;
+  i{
+    width: 21px;
+  height: 14px;
+  flex-shrink: 0;
+  color:#488C1C;
+  padding: 0 7px;
+  }
+    }
+   }
